@@ -7,7 +7,7 @@ const baseURL = environment.POSTGRES_API;
 
 export async function loginUser(username, password) {
   try {
-    const response = await axios.post(baseURL+'/api/login', {
+    const response = await axios.post(baseURL+'login', {
       username,
       password,
     });
