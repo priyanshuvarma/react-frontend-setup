@@ -1,6 +1,6 @@
 
 const prod = {
-    POSTGRES_API:'/api/',
+    POSTGRES_API:'https://python-sanic-backened.onrender.com',
 };
 
 const dev = {
